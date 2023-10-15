@@ -1,0 +1,11 @@
+com:
+  klimovich:
+    kafkastream:
+      kafka:
+        application-id: "java-cro-vitals"
+        bootstrap-servers: "localhost:9092"
+        heart-rate-source-topic: "heartrate"
+        temperature-source-topic: "temperature"
+        patient-vitals-sink-topic: "alert"
+        high-heart-rate-limit: 100
+        high-temp-rate-limit: 38.0
